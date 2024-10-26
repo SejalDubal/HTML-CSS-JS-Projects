@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WKU</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
+</head>
+<body>
+    <section class= "header">
+         <nav>
+            <a href="index.html"><img src="images/logouni2-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+
+        <div class="text-box">
+            <h1>World's Largest University</h1>
+            <p>
+           "The future is here, and it starts with the largest university in the world, where learning knows no bounds."
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+         </div>
+    
+    </section>
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>At WKU, we offer a wide range of courses designed to equip students with the knowledge and skills needed to excel in their chosen fields. 
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our intermediate courses enhance your skills and knowledge, bridging the gap to advanced studies and career success.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Our degree programs provide in-depth knowledge and practical skills, preparing you for a successful career in your chosen field.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post graduation</h3>
+                <p>Our postgraduate programs offer advanced knowledge and specialized skills, empowering you to excel in your profession and drive innovation in your field.
+                </p>
+            </div>
+        </div>
+        
+    </p>
+</section>
+
+
+<section class="campus">
+  <h1>Our Global campus</h1>
+ <p> At WKU, we offer a wide range of courses designed to equip students with the knowledge and skills needed to excel in their chosen fields.</p>
+
+ <div class="row">
+    <div class="campus-col">
+        <img src="images/pexels-sebastian-luna-736234668-28995048.jpg">
+        <div class="layer">
+            <h3>LONDON</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/pexels-adrien-olichon-1257089-13446152.jpg">
+        <div class="layer">
+            <h3>NEW YORK</h3>
+        </div>
+    </div><div class="campus-col">
+        <img src="images/pexels-hossain-takir-154788542-12119038.jpg">
+        <div class="layer">
+            <h3>BOSTON</h3>
+        </div>
+    </div>
+ </div>
+</section>
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Our intermediate courses enhance your skills and knowledge, bridging the gap to advanced studies and career success.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/lib.jpg">
+            <h3>World class library</h3>
+            <p>Imagine walking into a timeless sanctuary of knowledge.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/play.jpg">
+            <h3>Largest play ground</h3>
+            <p>largest playground with diversity in multiple games.</p>
+        </div> <div class="facilities-col">
+            <img src="images/cafe.jpg">
+            <h3>Cafeteria</h3>
+            <p> It's a pause in the day to refresh, connect, and savor the moment. </p>
+        </div>
+    </div>
+</section>
+
+
+
+<!--------------JS for toggle menu------>
+<script>
+
+      var navLinks = document.getElementById("navLinks")
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+</script>
+    
+</body>
+</html>
