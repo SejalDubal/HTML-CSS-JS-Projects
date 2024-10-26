@@ -1,0 +1,14 @@
+Project Overview
+This repository contains the code for a university website, including a functional contact form that allows users to submit their inquiries directly via email. The contact form captures essential information such as the user's name, email address, subject, and message. This functionality is built using HTML, CSS, and PHP.
+
+Features
+Responsive Navigation: A user-friendly navigation menu that adapts to various screen sizes.
+Contact Form: A simple yet effective form where visitors can enter their name, email, subject, and message.
+Email Functionality: Submissions are sent via email to the specified recipient, ensuring timely responses to inquiries.
+User Feedback: After submission, users are redirected to the contact page, enhancing user experience.
+
+How It Works
+HTML Form: Users fill out a form on the website, which includes fields for their name, email, subject, and message.
+PHP Backend: When the form is submitted, the data is sent to a PHP script that processes the input.
+Email Sending: The script constructs an email with the user's details and sends it to the designated email address.
+Redirection: Upon successful submission, users are redirected back to the contact page.
