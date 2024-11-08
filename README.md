@@ -1,1 +1,1 @@
-This repository consists of various HTML, CSS and JS projects.
+Welcome to my HTML, CSS, and JavaScript Projects repository! This collection showcases a variety of frontend web development projects, ranging from simple static pages to interactive web applications. These projects highlight different web development concepts, including responsive design, animations, and dynamic content handling with JavaScript.
